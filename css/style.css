@@ -1,4 +1,4 @@
-html { height: 100% }
+html { height: 100%; }
 body { height: 100%; margin: 0; padding: 0 }
 
 #map_canvas { height: 100% }
@@ -12,17 +12,16 @@ body { height: 100%; margin: 0; padding: 0 }
   width: 18em; 
   background-color: #fff; 
   border-left: 1px solid #ccc;
-  
   font: 1em/1.1em Helvetica,sans-serif;
 
   -moz-box-shadow: #aaa -2px 0 8px;
   -webkit-box-shadow: #aaa -2px 0 8px;
   box-shadow: #aaa -2px 0 8px;
 
-  -webkit-transition: all 0.2s ease-in;  
-  -moz-transition: all 0.2s ease-in;  
-  -o-transition: all 0.2s ease-in;  
-  transition: all 0.2s ease-in;  
+  -webkit-transition: right 0.2s ease-in 0;  
+  -moz-transition: right 0.2s ease-in 0;  
+  -o-transition: right 0.2s ease-in 0;  
+  transition: right 0.2s ease-in 0;  
   }
   
 #sidebar div.close-sidebar
@@ -39,6 +38,17 @@ body { height: 100%; margin: 0; padding: 0 }
   padding: 0 1em;
   font: 1.4em/1.6em Helvetica;
   color: #333;
+  }
+  
+#sidebar .markers ul
+  {
+  margin-left: 0;
+  padding-left: 0.5em;
+  }
+#sidebar .markers li
+  {
+  list-style-type: none;
+  padding: 0.25em;
   }
   
 #about
